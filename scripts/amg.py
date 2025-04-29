@@ -6,7 +6,8 @@
 
 import cv2  # type: ignore
 
-from segment_anything import SamAutomaticMaskGenerator, sam_model_registry
+from segment_anything.build_sam import SamAutomaticMaskGenerator, sam_model_registry
+
 
 import argparse
 import json
